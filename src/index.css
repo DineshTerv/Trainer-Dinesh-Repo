@@ -1,0 +1,14 @@
+@import '../style.css';
+@import '../extras.css';
+
+/* React App Root Tweaks */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-root {
+  width: 100%;
+  overflow-x: hidden;
+}

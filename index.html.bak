@@ -1,0 +1,941 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinesh N | Technical Trainer & Training Team Lead</title>
+  <meta name="description" content="Dinesh N â€“ Technical Trainer & Training Team Lead. Expert in Java, DSA, Full Stack, Python. Trained students across 30+ colleges in Tamil Nadu." />
+  <meta property="og:title" content="Dinesh N | Technical Trainer & Training Team Lead" />
+  <meta property="og:description" content="Building technical skills through Java, DSA, Full Stack & Problem Solving." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="extras.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo"><span class="lb">&lt;</span>Dinesh<span class="lb">/&gt;</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about"          class="nav-link">About</a></li>
+      <li><a href="#skills"         class="nav-link">Skills</a></li>
+      <li><a href="#experience"     class="nav-link">Experience</a></li>
+      <li><a href="#colleges"       class="nav-link">Colleges</a></li>
+      <li><a href="#projects"       class="nav-link">Projects</a></li>
+      <li><a href="#dsa"            class="nav-link">DSA</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact"        class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span>Open to Training Opportunities</div>
+      <h1 class="hero-name">
+        <span class="name-line">Hi, I'm</span>
+        <span class="name-main">Dinesh N</span>
+      </h1>
+      <h2 class="hero-title">
+        <span class="title-typed" id="typedTitle"></span><span class="cursor-blink">|</span>
+      </h2>
+      <p class="hero-tagline">Empowering students through <strong>Java â€¢ DSA â€¢ Full Stack â€¢ Problem Solving</strong></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" id="heroViewWork">
+          <span>View My Work</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="resume.pdf" class="btn btn-secondary" id="heroResume" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-outline" id="heroContact">
+          <span>Contact Me</span>
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/dinesh-n-terv-pro-1b2903229" target="_blank" class="social-link" id="heroLinkedIn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/DineshTerv" target="_blank" class="social-link" id="heroGitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+        </a>
+        <a href="mailto:dineshnallathambi2001@gmail.com" class="social-link" id="heroEmail" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        </a>
+        <a href="tel:+919566714372" class="social-link" id="heroPhone" aria-label="Phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 9.5 19.79 19.79 0 011 2.18 2 2 0 013 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+      <div class="hero-image-ring ring-outer"></div>
+      <div class="hero-image-ring ring-middle"></div>
+      <div class="hero-image-ring ring-inner"></div>
+      <div class="hero-image-frame">
+        <img src="profile.jpg" alt="Dinesh N â€“ Technical Trainer" class="hero-photo" id="heroPhoto" />
+      </div>
+      <div class="floating-card card-java"><span class="card-icon">â˜•</span><span>Java Expert</span></div>
+      <div class="floating-card card-dsa"><span class="card-icon">ðŸ”¢</span><span>DSA Mentor</span></div>
+      <div class="floating-card card-students"><span class="card-icon">ðŸŽ“</span><span>5000+ Students</span></div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-indicator" aria-label="Scroll"><span class="scroll-dot"></span></a>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Get To Know Me</span>
+      <h2 class="section-title">About <span class="accent-text">Me</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="about-lead">I'm <strong>Dinesh N</strong>, a passionate <strong>Technical Trainer & Training Team Lead</strong> based in Namakkal, Tamil Nadu â€” dedicated to bridging the gap between college education and real-world tech industry demands.</p>
+        <p class="about-body">With hands-on expertise in <strong>Java, DSA, Python, Full Stack Development</strong> and <strong>Problem Solving</strong>, I have trained thousands of engineering students across 30+ colleges in Tamil Nadu. I specialize in making complex topics simple, engaging, and industry-relevant.</p>
+        <p class="about-body">My journey started as a Technical Trainer, grew into a Master Technical Trainer, then Senior Master Technical Trainer, and now I lead training teams, design curriculum, and coordinate with college placement cells to deliver maximum placement impact.</p>
+        <p class="about-body">I believe every student deserves <em>quality technical education</em> â€” and I make it happen, one batch at a time.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Live Classroom & Online Training</div>
+          <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Curriculum Design & Content Creation</div>
+          <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Placement-Oriented DSA & Problem Solving</div>
+          <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Trainer Mentoring & Team Leadership</div>
+          <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Assessment Design & Technical Evaluation</div>
+        </div>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat-card" id="statExp">
+          <div class="stat-number" data-target="5">0</div><div class="stat-plus">+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card" id="statColleges">
+          <div class="stat-number" data-target="30">0</div><div class="stat-plus">+</div>
+          <div class="stat-label">Colleges Trained</div>
+        </div>
+        <div class="stat-card" id="statStudents">
+          <div class="stat-number" data-target="5000">0</div><div class="stat-plus">+</div>
+          <div class="stat-label">Students Mentored</div>
+        </div>
+        <div class="stat-card" id="statBatches">
+          <div class="stat-number" data-target="120">0</div><div class="stat-plus">+</div>
+          <div class="stat-label">Batches Completed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">What I Teach & Use</span>
+      <h2 class="section-title">My <span class="accent-text">Skills</span></h2>
+      <p class="section-sub">A blend of technical depth and teaching expertise across domains</p>
+    </div>
+
+    <!-- SKILL TABS -->
+    <div class="skill-tabs reveal" id="skillTabs">
+      <button class="skill-tab active" data-tab="all">All</button>
+      <button class="skill-tab" data-tab="programming">Programming</button>
+      <button class="skill-tab" data-tab="dsa">DSA</button>
+      <button class="skill-tab" data-tab="web">Web Dev</button>
+      <button class="skill-tab" data-tab="database">Database</button>
+      <button class="skill-tab" data-tab="tools">Tools</button>
+    </div>
+
+    <!-- SKILL CARDS GRID -->
+    <div class="skill-cards-grid reveal" id="skillCardsGrid">
+
+      <!-- Programming -->
+      <div class="sk-card" data-cat="programming">
+        <div class="sk-card-top">
+          <div class="sk-icon java-icon">â˜•</div>
+          <div class="sk-info">
+            <span class="sk-name">Java</span>
+            <span class="sk-cat-tag">Programming</span>
+          </div>
+          <span class="sk-percent">95%</span>
+        </div>
+        <p class="sk-desc">Core Java, OOP, Collections, Multithreading, Design Patterns</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:95%"></div></div>
+        <span class="sk-badge expert">Expert</span>
+      </div>
+
+      <div class="sk-card" data-cat="programming">
+        <div class="sk-card-top">
+          <div class="sk-icon python-icon">ðŸ</div>
+          <div class="sk-info">
+            <span class="sk-name">Python</span>
+            <span class="sk-cat-tag">Programming</span>
+          </div>
+          <span class="sk-percent">82%</span>
+        </div>
+        <p class="sk-desc">OOP, File Handling, Modules, Django, Automation Scripts</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:82%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <div class="sk-card" data-cat="programming">
+        <div class="sk-card-top">
+          <div class="sk-icon c-icon">âš™ï¸</div>
+          <div class="sk-info">
+            <span class="sk-name">C Language</span>
+            <span class="sk-cat-tag">Programming</span>
+          </div>
+          <span class="sk-percent">78%</span>
+        </div>
+        <p class="sk-desc">Pointers, Memory Management, Structures, Arrays, Functions</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:78%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <!-- DSA -->
+      <div class="sk-card" data-cat="dsa">
+        <div class="sk-card-top">
+          <div class="sk-icon dsa-icon">ðŸŒ³</div>
+          <div class="sk-info">
+            <span class="sk-name">Trees & Graphs</span>
+            <span class="sk-cat-tag">DSA</span>
+          </div>
+          <span class="sk-percent">92%</span>
+        </div>
+        <p class="sk-desc">Binary Trees, BST, AVL, BFS, DFS, Dijkstra's, Spanning Tree</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:92%"></div></div>
+        <span class="sk-badge expert">Expert</span>
+      </div>
+
+      <div class="sk-card" data-cat="dsa">
+        <div class="sk-card-top">
+          <div class="sk-icon dsa2-icon">ðŸ”—</div>
+          <div class="sk-info">
+            <span class="sk-name">Arrays, LL, Stack, Queue</span>
+            <span class="sk-cat-tag">DSA</span>
+          </div>
+          <span class="sk-percent">95%</span>
+        </div>
+        <p class="sk-desc">Arrays, Linked Lists, Stacks, Queues, Sliding Window, Two Pointer</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:95%"></div></div>
+        <span class="sk-badge expert">Expert</span>
+      </div>
+
+      <div class="sk-card" data-cat="dsa">
+        <div class="sk-card-top">
+          <div class="sk-icon dp-icon">âš¡</div>
+          <div class="sk-info">
+            <span class="sk-name">Dynamic Programming</span>
+            <span class="sk-cat-tag">DSA</span>
+          </div>
+          <span class="sk-percent">88%</span>
+        </div>
+        <p class="sk-desc">Memoization, Tabulation, Knapsack, LCS, Matrix Chain Multiplication</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:88%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <!-- Web Dev -->
+      <div class="sk-card" data-cat="web">
+        <div class="sk-card-top">
+          <div class="sk-icon react-icon">âš›ï¸</div>
+          <div class="sk-info">
+            <span class="sk-name">React & JavaScript</span>
+            <span class="sk-cat-tag">Web Dev</span>
+          </div>
+          <span class="sk-percent">85%</span>
+        </div>
+        <p class="sk-desc">React Hooks, State Management, ES6+, Vite, Component Architecture</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:85%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <div class="sk-card" data-cat="web">
+        <div class="sk-card-top">
+          <div class="sk-icon html-icon">ðŸ§±</div>
+          <div class="sk-info">
+            <span class="sk-name">HTML & CSS</span>
+            <span class="sk-cat-tag">Web Dev</span>
+          </div>
+          <span class="sk-percent">90%</span>
+        </div>
+        <p class="sk-desc">Semantic HTML5, Flexbox, Grid, Animations, Responsive Design</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:90%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <div class="sk-card" data-cat="web">
+        <div class="sk-card-top">
+          <div class="sk-icon django-icon">ðŸ‰</div>
+          <div class="sk-info">
+            <span class="sk-name">Django & Spring Boot</span>
+            <span class="sk-cat-tag">Web Dev</span>
+          </div>
+          <span class="sk-percent">75%</span>
+        </div>
+        <p class="sk-desc">REST APIs, MVC Pattern, Django ORM, Spring MVC, Backend Development</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:75%"></div></div>
+        <span class="sk-badge proficient">Proficient</span>
+      </div>
+
+      <!-- Database -->
+      <div class="sk-card" data-cat="database">
+        <div class="sk-card-top">
+          <div class="sk-icon sql-icon">ðŸ—„ï¸</div>
+          <div class="sk-info">
+            <span class="sk-name">SQL & MySQL</span>
+            <span class="sk-cat-tag">Database</span>
+          </div>
+          <span class="sk-percent">88%</span>
+        </div>
+        <p class="sk-desc">Joins, Subqueries, Indexes, Stored Procedures, Schema Design</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:88%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <div class="sk-card" data-cat="database">
+        <div class="sk-card-top">
+          <div class="sk-icon jdbc-icon">ðŸ”Œ</div>
+          <div class="sk-info">
+            <span class="sk-name">JDBC & PostgreSQL</span>
+            <span class="sk-cat-tag">Database</span>
+          </div>
+          <span class="sk-percent">78%</span>
+        </div>
+        <p class="sk-desc">JDBC Connectivity, PreparedStatements, Connection Pooling, PostgreSQL</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:78%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <!-- Tools -->
+      <div class="sk-card" data-cat="tools">
+        <div class="sk-card-top">
+          <div class="sk-icon git-icon">ðŸ”§</div>
+          <div class="sk-info">
+            <span class="sk-name">Git & GitHub</span>
+            <span class="sk-cat-tag">Tools</span>
+          </div>
+          <span class="sk-percent">85%</span>
+        </div>
+        <p class="sk-desc">Version Control, Branching, Pull Requests, GitHub Actions, Collaboration</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:85%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+      <div class="sk-card" data-cat="tools">
+        <div class="sk-card-top">
+          <div class="sk-icon train-icon">ðŸŽ“</div>
+          <div class="sk-info">
+            <span class="sk-name">Training & Curriculum</span>
+            <span class="sk-cat-tag">Tools</span>
+          </div>
+          <span class="sk-percent">98%</span>
+        </div>
+        <p class="sk-desc">Curriculum Design, Assessment Creation, Placement Training, Mentorship</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:98%"></div></div>
+        <span class="sk-badge expert">Expert</span>
+      </div>
+
+      <div class="sk-card" data-cat="tools">
+        <div class="sk-card-top">
+          <div class="sk-icon ide-icon">ðŸ’»</div>
+          <div class="sk-info">
+            <span class="sk-name">VS Code & Eclipse</span>
+            <span class="sk-cat-tag">Tools</span>
+          </div>
+          <span class="sk-percent">90%</span>
+        </div>
+        <p class="sk-desc">IntelliJ, Eclipse, VS Code, Postman, LeetCode, HackerRank</p>
+        <div class="sk-bar"><div class="sk-fill" style="--w:90%"></div></div>
+        <span class="sk-badge advanced">Advanced</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">My Journey</span>
+      <h2 class="section-title">Experience <span class="accent-text">Timeline</span></h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal" id="expT1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="timeline-role">Technical Trainer</div>
+            <div class="timeline-period">2020 â€“ 2021</div>
+          </div>
+          <div class="timeline-org">ðŸ“ Tamil Nadu</div>
+          <ul class="timeline-points">
+            <li>Delivered Java & DSA sessions to BE/B.Tech students across Tamil Nadu colleges</li>
+            <li>Conducted placement-preparation workshops on problem solving and aptitude</li>
+            <li>Designed beginner-to-intermediate level curriculum for Core Java & OOP</li>
+          </ul>
+          <div class="timeline-tags"><span>Java</span><span>DSA</span><span>OOP</span><span>Aptitude</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal" id="expT2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="timeline-role">Master Technical Trainer</div>
+            <div class="timeline-period">2021 â€“ 2022</div>
+          </div>
+          <div class="timeline-org">ðŸ“ Tamil Nadu</div>
+          <ul class="timeline-points">
+            <li>Expanded scope to Python, Web Development (HTML/CSS/JS/React) and SQL</li>
+            <li>Trained 10+ batches simultaneously across multiple colleges</li>
+            <li>Started mentoring junior trainers and reviewing training quality</li>
+            <li>Introduced LeetCode-style competitive coding sessions for students</li>
+          </ul>
+          <div class="timeline-tags"><span>Python</span><span>React</span><span>SQL</span><span>Full Stack</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal" id="expT3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="timeline-role">Senior Master Technical Trainer</div>
+            <div class="timeline-period">2022 â€“ 2023</div>
+          </div>
+          <div class="timeline-org">ðŸ“ Tamil Nadu</div>
+          <ul class="timeline-points">
+            <li>Led training programs for 20+ colleges, managing schedules and trainers</li>
+            <li>Designed advanced DSA modules covering Trees, Graphs, and Dynamic Programming</li>
+            <li>Coordinated with college placement cells and HODs for structured training calendars</li>
+            <li>Developed and standardized assessment frameworks used across all batches</li>
+          </ul>
+          <div class="timeline-tags"><span>Advanced DSA</span><span>Django</span><span>Spring Boot</span><span>Leadership</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal" id="expT4">
+        <div class="timeline-dot active"></div>
+        <div class="timeline-card active">
+          <div class="timeline-header">
+            <div class="timeline-role">Training Team Lead</div>
+            <div class="timeline-period">2023 â€“ Present ðŸ”¥</div>
+          </div>
+          <div class="timeline-org">ðŸ“ Tamil Nadu</div>
+          <ul class="timeline-points">
+            <li>Leading a team of trainers, overseeing 30+ college partnerships across Tamil Nadu</li>
+            <li>Personally trained 5000+ students with consistent placement success above 80%</li>
+            <li>Architecting comprehensive training programs aligned with current industry stacks</li>
+            <li>Building DSA Visualizer and training management tools for better learning outcomes</li>
+            <li>Conducting interviews, selecting, and grooming new trainers for the team</li>
+          </ul>
+          <div class="timeline-tags"><span>Team Lead</span><span>Curriculum Design</span><span>Placement Drive</span><span>Mentorship</span></div>
+          <button class="announcement-btn" id="openPosterBtn" onclick="document.getElementById('posterModal').classList.add('open')">
+            <span class="announce-pulse"></span>
+            ðŸŽ‰ View My Official Announcement
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== COLLEGES ========== -->
+<section class="section section-alt" id="colleges">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Where I've Trained</span>
+      <h2 class="section-title">College <span class="accent-text">Experience</span></h2>
+      <p class="section-sub">Proud to have delivered training across these institutions in Tamil Nadu</p>
+    </div>
+    <div class="colleges-grid reveal">
+
+      <div class="college-card" id="colSJC">
+        <div class="college-abbr">SJC</div>
+        <div class="college-info">
+          <h3>St. Joseph College of Engineering</h3>
+          <p>Tamil Nadu Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Java</span><span>DSA</span><span>Full Stack</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colMahendra">
+        <div class="college-abbr">MEC</div>
+        <div class="college-info">
+          <h3>Mahendra Engineering College</h3>
+          <p>Namakkal Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Python</span><span>DSA</span><span>React</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colMKCE">
+        <div class="college-abbr">MKCE</div>
+        <div class="college-info">
+          <h3>M. Kumarasamy College of Engineering</h3>
+          <p>Karur Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Java</span><span>Web Dev</span><span>SQL</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colChettinad">
+        <div class="college-abbr">CEC</div>
+        <div class="college-info">
+          <h3>Chettinad College of Engineering</h3>
+          <p>Karur Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>DSA</span><span>Problem Solving</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colNSNCET">
+        <div class="college-abbr">NSNCET</div>
+        <div class="college-info">
+          <h3>Nandha Srinivasa Naicker College of Engineering</h3>
+          <p>Tamil Nadu Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Java</span><span>Full Stack</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colMeenakshi">
+        <div class="college-abbr">MCE</div>
+        <div class="college-info">
+          <h3>Meenakshi College of Engineering</h3>
+          <p>Chennai Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Python</span><span>DSA</span></div>
+        </div>
+      </div>
+
+      <div class="college-card" id="colMuthyammal">
+        <div class="college-abbr">MMET</div>
+        <div class="college-info">
+          <h3>Muthyammal College of Engineering</h3>
+          <p>Namakkal Â· B.E / B.Tech</p>
+          <div class="college-tags"><span>Java</span><span>Web Dev</span></div>
+        </div>
+      </div>
+
+      <div class="college-card college-card-more" id="colMore">
+        <div class="college-abbr">30+</div>
+        <div class="college-info">
+          <h3>And Many More...</h3>
+          <p>Across Tamil Nadu</p>
+          <div class="college-tags"><span>All Domains</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">What I've Built</span>
+      <h2 class="section-title">Featured <span class="accent-text">Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card featured reveal" id="projCampus">
+        <div class="project-glow"></div>
+        <div class="project-header">
+          <div class="project-icon">ðŸ«</div>
+          <div class="project-links">
+            <a href="https://github.com/DineshTerv" target="_blank" class="proj-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="#" class="proj-link" aria-label="Live Demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">Campus Event Manager</h3>
+        <p class="project-desc">A full-stack web application for managing college campus events â€” registration, scheduling, announcements, and attendance tracking. Built to solve real problems faced by student organizers and faculty coordinators.</p>
+        <div class="project-tags"><span>React</span><span>Django</span><span>MySQL</span><span>REST API</span><span>Python</span></div>
+        <div class="project-meta"><span>ðŸ« Used at college events</span><span class="featured-badge">Featured</span></div>
+      </div>
+
+      <div class="project-card reveal" id="projDSAViz">
+        <div class="project-header">
+          <div class="project-icon">ðŸ”¢</div>
+          <div class="project-links">
+            <a href="https://github.com/DineshTerv" target="_blank" class="proj-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="#" class="proj-link" aria-label="Live Demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">DSA Visualizer</h3>
+        <p class="project-desc">An interactive web tool to visualize sorting algorithms, tree traversals, and graph algorithms in real-time â€” used in training sessions to make DSA visual and memorable for students.</p>
+        <div class="project-tags"><span>JavaScript</span><span>Canvas API</span><span>HTML/CSS</span></div>
+      </div>
+
+      <div class="project-card reveal" id="projLeetCode">
+        <div class="project-header">
+          <div class="project-icon">ðŸ“Š</div>
+          <div class="project-links">
+            <a href="https://github.com/DineshTerv" target="_blank" class="proj-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="#" class="proj-link" aria-label="Live Demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">LeetCode Tracker</h3>
+        <p class="project-desc">A personal dashboard that tracks LeetCode problem-solving progress by topic, difficulty, and date â€” helping students build consistent coding habits for placements.</p>
+        <div class="project-tags"><span>React</span><span>Vite</span><span>LeetCode API</span><span>Chart.js</span></div>
+      </div>
+
+      <div class="project-card reveal" id="projPortfolio">
+        <div class="project-header">
+          <div class="project-icon">ðŸŒ</div>
+          <div class="project-links">
+            <a href="https://github.com/DineshTerv" target="_blank" class="proj-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="#" class="proj-link" aria-label="Live Demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-desc">This very portfolio â€” a dark-themed, animated personal portfolio showcasing training experience, skills, certifications, and projects with premium UI/UX design.</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Animations</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== DSA / CODING ========== -->
+<section class="section section-alt" id="dsa">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Problem Solving</span>
+      <h2 class="section-title">DSA & <span class="accent-text">Coding</span></h2>
+      <p class="section-sub">Making competitive programming accessible and placement-ready for every student</p>
+    </div>
+
+    <div class="dsa-stats reveal">
+      <div class="dsa-stat-card" id="dsaStudents">
+        <div class="dsa-icon">ðŸŽ“</div>
+        <div class="dsa-number" data-target="5000">0</div>
+        <div class="dsa-plus">+</div>
+        <div class="dsa-label">Students Trained in DSA</div>
+      </div>
+      <div class="dsa-stat-card" id="dsaColleges">
+        <div class="dsa-icon">ðŸ«</div>
+        <div class="dsa-number" data-target="30">0</div>
+        <div class="dsa-plus">+</div>
+        <div class="dsa-label">Colleges Covered</div>
+      </div>
+      <div class="dsa-stat-card" id="dsaDays">
+        <div class="dsa-icon">ðŸ“…</div>
+        <div class="dsa-number" data-target="500">0</div>
+        <div class="dsa-plus">+</div>
+        <div class="dsa-label">Training Days</div>
+      </div>
+      <div class="dsa-stat-card" id="dsaProblems">
+        <div class="dsa-icon">ðŸ’¡</div>
+        <div class="dsa-number" data-target="300">0</div>
+        <div class="dsa-plus">+</div>
+        <div class="dsa-label">Problems Curated</div>
+      </div>
+    </div>
+
+    <div class="dsa-topics reveal">
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">â˜•</span><h3>Java</h3></div>
+        <p>Core Java, OOP, Collections, Multithreading, Design Patterns, JVM internals</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 95%"></div></div>
+      </div>
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">ðŸ</span><h3>Python</h3></div>
+        <p>Python basics, OOP, file handling, modules, automation scripts</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 82%"></div></div>
+      </div>
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">âš™ï¸</span><h3>C / C++</h3></div>
+        <p>Pointers, memory management, structures, arrays, competitive coding</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 78%"></div></div>
+      </div>
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">ðŸ†</span><h3>LeetCode</h3></div>
+        <p>Easy to Hard problems, interview patterns, sliding window, two pointer, BFS/DFS</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 88%"></div></div>
+      </div>
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">ðŸŽ¯</span><h3>Interview Prep</h3></div>
+        <p>Mock interviews, time complexity analysis, system design basics, coding rounds</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 90%"></div></div>
+      </div>
+      <div class="dsa-topic-card">
+        <div class="topic-header"><span class="topic-icon">âš¡</span><h3>Coding Challenges</h3></div>
+        <p>HackerRank, CodeChef, Codeforces contests, hackathons & competitive coding</p>
+        <div class="topic-bar"><div class="topic-fill" style="--fill: 85%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CERTIFICATIONS ========== -->
+<section class="section" id="certifications">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Credentials & Achievements</span>
+      <h2 class="section-title">Certifications & <span class="accent-text">Achievements</span></h2>
+    </div>
+    <div class="certs-grid reveal">
+
+      <div class="cert-card" id="certHR">
+        <div class="cert-ribbon"></div>
+        <div class="cert-logo hacker">HR</div>
+        <div class="cert-body">
+          <h3>Problem Solving (Advanced)</h3>
+          <p>HackerRank</p>
+          <span class="cert-year">Gold Badge â€“ 5 Star</span>
+        </div>
+        <div class="cert-verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Verified</div>
+      </div>
+
+      <div class="cert-card" id="certGoogle">
+        <div class="cert-ribbon"></div>
+        <div class="cert-logo google">G</div>
+        <div class="cert-body">
+          <h3>Google Technical Certification</h3>
+          <p>Google</p>
+          <span class="cert-year">Digital Skills</span>
+        </div>
+        <div class="cert-verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Verified</div>
+      </div>
+
+      <div class="cert-card" id="certLeetCode">
+        <div class="cert-ribbon"></div>
+        <div class="cert-logo leetcode">LC</div>
+        <div class="cert-body">
+          <h3>LeetCode Problem Solving</h3>
+          <p>LeetCode</p>
+          <span class="cert-year">Top Solver</span>
+        </div>
+        <div class="cert-verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Verified</div>
+      </div>
+
+      <div class="cert-card" id="certJava">
+        <div class="cert-ribbon"></div>
+        <div class="cert-logo java-c">JV</div>
+        <div class="cert-body">
+          <h3>Java Programming Excellence</h3>
+          <p>Technical Certification</p>
+          <span class="cert-year">Advanced Level</span>
+        </div>
+        <div class="cert-verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Verified</div>
+      </div>
+
+      <div class="cert-card" id="certTraining">
+        <div class="cert-ribbon"></div>
+        <div class="cert-logo training">TL</div>
+        <div class="cert-body">
+          <h3>Training Team Lead Achievement</h3>
+          <p>Organizational Recognition</p>
+          <span class="cert-year">5000+ Students</span>
+        </div>
+        <div class="cert-verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Verified</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">What They Say</span>
+      <h2 class="section-title">Student <span class="accent-text">Testimonials</span></h2>
+    </div>
+    <div class="testimonials-grid reveal">
+
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">Dinesh sir's Java classes completely changed how I think about programming. His way of explaining OOP and DSA with real examples made it so much easier to crack interviews. Got placed at TCS because of his training!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">R</div>
+          <div class="author-info">
+            <strong>Rajkumar S</strong>
+            <span>B.E CSE Student Â· Placed at TCS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">The DSA sessions were incredible. Dinesh sir made graphs and trees look easy with live visualizations. His LeetCode-style practice sessions gave us the confidence to face any coding round.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">P</div>
+          <div class="author-info">
+            <strong>Priya M</strong>
+            <span>B.Tech IT Student Â· Placed at Infosys</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">As a college coordinator, I can say Dinesh sir's training sessions are among the best we've had. Students are more confident, placement-ready, and technically strong. Highly recommended trainer!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">K</div>
+          <div class="author-info">
+            <strong>Prof. Kumar</strong>
+            <span>Training Coordinator Â· MKCE</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Let's Connect</span>
+      <h2 class="section-title">Get In <span class="accent-text">Touch</span></h2>
+      <p class="section-sub">Have a training requirement, collaboration idea, or just want to say hello? I'd love to hear from you!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+
+        <div class="contact-item" id="ctEmail">
+          <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg></div>
+          <div>
+            <span class="contact-label">Email</span>
+            <a href="mailto:dineshnallathambi2001@gmail.com" class="contact-value">dineshnallathambi2001@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item" id="ctPhone">
+          <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 9.5 19.79 19.79 0 011 2.18 2 2 0 013 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+919566714372" class="contact-value">+91 95667 14372</a>
+          </div>
+        </div>
+
+        <div class="contact-item" id="ctLocation">
+          <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Namakkal, Tamil Nadu, India</span>
+          </div>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/dinesh-n-terv-pro-1b2903229" target="_blank" class="social-pill" id="ctLinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/DineshTerv" target="_blank" class="social-pill" id="ctGitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="formName">Full Name</label>
+            <input type="text" id="formName" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="formPhone">Phone</label>
+            <input type="tel" id="formPhone" name="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="formEmail">Email Address</label>
+          <input type="email" id="formEmail" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="formSubject">Subject</label>
+          <select id="formSubject" name="subject">
+            <option value="">Select a topic</option>
+            <option>Training Requirement</option>
+            <option>Collaboration / Partnership</option>
+            <option>Project Inquiry</option>
+            <option>Internship / Job</option>
+            <option>General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="formMessage">Message</label>
+          <textarea id="formMessage" name="message" rows="5" placeholder="Tell me about your requirement..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="contactSubmit">
+          <span>Send Message</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Message sent! I'll get back to you soon. ðŸŽ‰
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <a href="#home" class="footer-logo"><span class="lb">&lt;</span>Dinesh N<span class="lb">/&gt;</span></a>
+      <p class="footer-tagline">Technical Trainer & Training Team Lead Â· Namakkal, Tamil Nadu</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/dinesh-n-terv-pro-1b2903229" target="_blank">LinkedIn</a>
+        <a href="https://github.com/DineshTerv" target="_blank">GitHub</a>
+        <a href="mailto:dineshnallathambi2001@gmail.com">Email</a>
+        <a href="tel:+919566714372">+91 95667 14372</a>
+      </div>
+      <p class="footer-copy">Â© 2024 Dinesh N. Built with passion for teaching. ðŸŽ“</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== TRAINING LEAD POSTER MODAL ===== -->
+<div class="poster-modal" id="posterModal">
+  <div class="poster-modal-overlay" onclick="document.getElementById('posterModal').classList.remove('open')"></div>
+  <div class="poster-modal-content">
+    <button class="poster-close" id="posterClose" onclick="document.getElementById('posterModal').classList.remove('open')" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="poster-image-wrap">
+      <img src="training_lead_poster.jpg" alt="Dinesh N â€“ Training Team Lead Announcement by TERV & Top Freshers" class="poster-img" id="posterImg" />
+    </div>
+    <div class="poster-caption">
+      <span class="poster-badge">ðŸŽ‰ Official Announcement</span>
+      <p>Dinesh N appointed as <strong>Training Team Lead</strong> at TERV Ã— Top Freshers</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
