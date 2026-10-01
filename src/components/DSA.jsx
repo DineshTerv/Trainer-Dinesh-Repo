@@ -2,19 +2,19 @@ import React from 'react';
 
 export default function DSA() {
   const dsaStats = [
-    { label: "Students Trained in DSA", target: 15000, icon: "/assets/skills/training.svg" },
+    { label: "Students Trained in DSA", target: 15000, icon: "./assets/skills/training.svg" },
     { label: "Colleges Covered", target: 1200, iconType: "svg" },
     { label: "Training Days", target: 500, iconType: "cal" },
     { label: "Problems Curated", target: 300, iconType: "bulb" }
   ];
 
   const dsaTopics = [
-    { name: "Java", fill: "95%", icon: "/assets/skills/java.svg", desc: "Core Java, OOP, Collections, Multithreading, Design Patterns, JVM internals" },
-    { name: "Python", fill: "82%", icon: "/assets/skills/python.svg", desc: "Python basics, OOP, file handling, modules, automation scripts" },
-    { name: "C / C++", fill: "78%", icon: "/assets/skills/cpp.svg", desc: "Pointers, memory management, structures, arrays, competitive coding" },
-    { name: "LeetCode", fill: "88%", icon: "/assets/skills/linear-dsa.svg", desc: "Easy to Hard problems, interview patterns, sliding window, two pointer, BFS/DFS" },
-    { name: "Interview Prep", fill: "90%", icon: "/assets/skills/training.svg", desc: "Mock interviews, time complexity analysis, system design basics, coding rounds" },
-    { name: "Coding Challenges", fill: "85%", icon: "/assets/skills/dp.svg", desc: "HackerRank, CodeChef, Codeforces contests, hackathons & competitive coding" }
+    { name: "Java", fill: "95%", icon: "./assets/skills/java.svg", desc: "Core Java, OOP, Collections, Multithreading, Design Patterns, JVM internals" },
+    { name: "Python", fill: "82%", icon: "./assets/skills/python.svg", desc: "Python basics, OOP, file handling, modules, automation scripts" },
+    { name: "C / C++", fill: "78%", icon: "./assets/skills/cpp.svg", desc: "Pointers, memory management, structures, arrays, competitive coding" },
+    { name: "LeetCode", fill: "88%", icon: "./assets/skills/linear-dsa.svg", desc: "Easy to Hard problems, interview patterns, sliding window, two pointer, BFS/DFS" },
+    { name: "Interview Prep", fill: "90%", icon: "./assets/skills/training.svg", desc: "Mock interviews, time complexity analysis, system design basics, coding rounds" },
+    { name: "Coding Challenges", fill: "85%", icon: "./assets/skills/dp.svg", desc: "HackerRank, CodeChef, Codeforces contests, hackathons & competitive coding" }
   ];
 
   return (
