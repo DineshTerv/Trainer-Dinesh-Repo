@@ -17,7 +17,7 @@ export default function Colleges() {
         <div className="college-live-banner reveal">
           <div className="college-banner-img-wrap">
             <img
-              src="/college_training_session.jpg"
+              src="./college_training_session.jpg"
               alt="Dinesh N Conducting Live Technical Training Session in College"
               className="college-banner-img"
               loading="lazy"

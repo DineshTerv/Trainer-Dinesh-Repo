@@ -83,7 +83,7 @@ export default function Hero() {
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </a>
-            <a href="Dinesh_Resume_New.pdf" target="_blank" rel="noreferrer" className="btn btn-secondary" id="heroResume">
+            <a href="./Dinesh_Resume_New.pdf" target="_blank" rel="noreferrer" className="btn btn-secondary" id="heroResume">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path d="M2.458 12C3.732 7.943 7.522 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.478 0-8.268-2.943-9.542-7z" />

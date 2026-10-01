@@ -29,7 +29,7 @@ export const skillsData = [
     percent: 95,
     badge: "Expert",
     desc: "Core Java, OOP, Collections, Multithreading, Design Patterns",
-    logo: "/assets/skills/java.svg",
+    logo: "./assets/skills/java.svg",
     iconClass: "java-icon"
   },
   {
@@ -39,7 +39,7 @@ export const skillsData = [
     percent: 82,
     badge: "Advanced",
     desc: "OOP, File Handling, Modules, Django, Automation Scripts",
-    logo: "/assets/skills/python.svg",
+    logo: "./assets/skills/python.svg",
     iconClass: "python-icon"
   },
   {
@@ -49,7 +49,7 @@ export const skillsData = [
     percent: 78,
     badge: "Advanced",
     desc: "Pointers, Memory Management, Structures, Arrays, Functions",
-    logo: "/assets/skills/c.svg",
+    logo: "./assets/skills/c.svg",
     iconClass: "c-icon"
   },
   {
@@ -59,7 +59,7 @@ export const skillsData = [
     percent: 80,
     badge: "Advanced",
     desc: "STL, Templates, OOP, Competitive Programming, Memory Model",
-    logo: "/assets/skills/cpp.svg",
+    logo: "./assets/skills/cpp.svg",
     iconClass: "cpp-icon"
   },
   {
@@ -69,7 +69,7 @@ export const skillsData = [
     percent: 92,
     badge: "Expert",
     desc: "Binary Trees, BST, AVL, BFS, DFS, Dijkstra's, Spanning Tree",
-    logo: "/assets/skills/trees-graphs.svg",
+    logo: "./assets/skills/trees-graphs.svg",
     iconClass: "dsa-icon"
   },
   {
@@ -79,7 +79,7 @@ export const skillsData = [
     percent: 95,
     badge: "Expert",
     desc: "Arrays, Linked Lists, Stacks, Queues, Sliding Window, Two Pointer",
-    logo: "/assets/skills/linear-dsa.svg",
+    logo: "./assets/skills/linear-dsa.svg",
     iconClass: "dsa2-icon"
   },
   {
@@ -89,7 +89,7 @@ export const skillsData = [
     percent: 88,
     badge: "Advanced",
     desc: "Memoization, Tabulation, Knapsack, LCS, Matrix Chain Multiplication",
-    logo: "/assets/skills/dp.svg",
+    logo: "./assets/skills/dp.svg",
     iconClass: "dp-icon"
   },
   {
@@ -99,7 +99,7 @@ export const skillsData = [
     percent: 85,
     badge: "Advanced",
     desc: "React Hooks, State Management, ES6+, Vite, Component Architecture",
-    logo: "/assets/skills/react.svg",
+    logo: "./assets/skills/react.svg",
     iconClass: "react-icon"
   },
   {
@@ -109,7 +109,7 @@ export const skillsData = [
     percent: 90,
     badge: "Advanced",
     desc: "Semantic HTML5, Flexbox, Grid, Animations, Responsive Design",
-    logo: "/assets/skills/html5.svg",
+    logo: "./assets/skills/html5.svg",
     iconClass: "html-icon"
   },
   {
@@ -119,7 +119,7 @@ export const skillsData = [
     percent: 75,
     badge: "Proficient",
     desc: "REST APIs, MVC Pattern, Spring MVC, Django ORM, Backend Services",
-    logo: "/assets/skills/spring.svg",
+    logo: "./assets/skills/spring.svg",
     iconClass: "django-icon"
   },
   {
@@ -129,7 +129,7 @@ export const skillsData = [
     percent: 88,
     badge: "Advanced",
     desc: "Joins, Subqueries, Indexes, Stored Procedures, Schema Design",
-    logo: "/assets/skills/mysql.svg",
+    logo: "./assets/skills/mysql.svg",
     iconClass: "sql-icon"
   },
   {
@@ -139,7 +139,7 @@ export const skillsData = [
     percent: 78,
     badge: "Advanced",
     desc: "JDBC Connectivity, PreparedStatements, Connection Pooling, PostgreSQL",
-    logo: "/assets/skills/postgresql.svg",
+    logo: "./assets/skills/postgresql.svg",
     iconClass: "jdbc-icon"
   },
   {
@@ -149,7 +149,7 @@ export const skillsData = [
     percent: 85,
     badge: "Advanced",
     desc: "Version Control, Branching, Pull Requests, GitHub Actions, Collaboration",
-    logo: "/assets/skills/git.svg",
+    logo: "./assets/skills/git.svg",
     iconClass: "git-icon"
   },
   {
@@ -159,7 +159,7 @@ export const skillsData = [
     percent: 98,
     badge: "Expert",
     desc: "Curriculum Design, Assessment Creation, Placement Training, Mentorship",
-    logo: "/assets/skills/training.svg",
+    logo: "./assets/skills/training.svg",
     iconClass: "train-icon"
   },
   {
@@ -169,7 +169,7 @@ export const skillsData = [
     percent: 90,
     badge: "Advanced",
     desc: "IntelliJ, Eclipse, VS Code, Postman, LeetCode, HackerRank",
-    logo: "/assets/skills/vscode.svg",
+    logo: "./assets/skills/vscode.svg",
     iconClass: "ide-icon"
   }
 ];
@@ -285,7 +285,7 @@ export const certsData = [
     logoText: "HR",
     title: "Problem Solving (Advanced)",
     badge: "Gold Badge - 5 Star",
-    image: "/assets/certs/cert_hackerrank.jpg",
+    image: "./assets/certs/cert_hackerrank.jpg",
     subtitle: "Gold Badge - 5 Star • Certificate ID: HR-PSA-14987654"
   },
   {
@@ -295,7 +295,7 @@ export const certsData = [
     logoText: "G",
     title: "Google Technical Certification",
     badge: "Cloud & Digital Skills",
-    image: "/assets/certs/cert_google.jpg",
+    image: "./assets/certs/cert_google.jpg",
     subtitle: "Google Cloud Infrastructure & Services • ID: GCTC-DN-0923841"
   },
   {
@@ -305,7 +305,7 @@ export const certsData = [
     logoText: "LC",
     title: "LeetCode Problem Solving",
     badge: "Top Problem Solver",
-    image: "/assets/certs/cert_leetcode_new.jpg",
+    image: "./assets/certs/cert_leetcode_new.jpg",
     subtitle: "Top Solver Honor • Contest Rating: 1850+ • ID: LC-ALG-889421"
   },
   {
@@ -315,7 +315,7 @@ export const certsData = [
     logoText: "JV",
     title: "Java Programming Excellence",
     badge: "Expert Specialization",
-    image: "/assets/certs/cert_java.svg",
+    image: "./assets/certs/cert_java.svg",
     subtitle: "Expert Level Specialization • ID: JV-EXP-94021"
   },
   {
@@ -325,7 +325,7 @@ export const certsData = [
     logoText: "TL",
     title: "Training Team Lead Achievement",
     badge: "15,000+ Students Mentored",
-    image: "/assets/certs/training_lead_collage.jpg",
+    image: "./assets/certs/training_lead_collage.jpg",
     subtitle: "TERV × Top Freshers • 15,000+ Students Mentored • 1,200+ Colleges"
   }
 ];

@@ -25,7 +25,7 @@ export default function PosterModal({ isOpen, onClose }) {
         </button>
         <div className="poster-image-wrap">
           <img
-            src="/training_lead_poster.jpg"
+            src="./training_lead_poster.jpg"
             alt="Dinesh N - Training Team Lead Announcement by TERV &amp; Top Freshers"
             className="poster-img"
           />

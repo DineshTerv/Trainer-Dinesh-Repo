@@ -22,7 +22,7 @@ export default function Projects() {
                   </svg>
                 )}
                 {idx === 1 && (
-                  <img src="/assets/skills/trees-graphs.svg" style={{ width: '24px', height: '24px' }} alt="DSA Visualizer" />
+                  <img src="./assets/skills/trees-graphs.svg" style={{ width: '24px', height: '24px' }} alt="DSA Visualizer" />
                 )}
                 {idx === 2 && (
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style={{ width: '24px', height: '24px' }}>
