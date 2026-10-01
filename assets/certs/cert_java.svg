@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="javaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a1a"/>
+      <stop offset="50%" stop-color="#14112e"/>
+      <stop offset="100%" stop-color="#0a0815"/>
+    </linearGradient>
+
+    <!-- Java Warm Red & Coffee Orange Gradient -->
+    <linearGradient id="javaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <!-- Gold Foil Gradient -->
+    <linearGradient id="goldJava" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="30%" stop-color="#fef08a"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+
+    <pattern id="circuitPat" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="1" fill="rgba(234, 88, 12, 0.1)"/>
+      <path d="M 0 25 L 50 25 M 25 0 L 25 50" fill="none" stroke="rgba(234, 88, 12, 0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="750" fill="url(#javaBg)"/>
+  <rect width="1000" height="750" fill="url(#circuitPat)"/>
+
+  <!-- Ornate Outer Frame -->
+  <rect x="25" y="25" width="950" height="700" rx="16" fill="none" stroke="url(#goldJava)" stroke-width="3" opacity="0.9"/>
+  <rect x="36" y="36" width="928" height="678" rx="12" fill="none" stroke="rgba(234, 88, 12, 0.35)" stroke-width="1"/>
+  <rect x="44" y="44" width="912" height="662" rx="8" fill="none" stroke="url(#goldJava)" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+  <!-- Ornate Corners -->
+  <path d="M 36 80 L 36 36 L 80 36" fill="none" stroke="url(#goldJava)" stroke-width="4"/>
+  <polygon points="36,36 44,36 36,44" fill="#fef08a"/>
+  <path d="M 964 80 L 964 36 L 920 36" fill="none" stroke="url(#goldJava)" stroke-width="4"/>
+  <polygon points="964,36 956,36 964,44" fill="#fef08a"/>
+  <path d="M 36 670 L 36 714 L 80 714" fill="none" stroke="url(#goldJava)" stroke-width="4"/>
+  <polygon points="36,714 44,714 36,706" fill="#fef08a"/>
+  <path d="M 964 670 L 964 714 L 920 714" fill="none" stroke="url(#goldJava)" stroke-width="4"/>
+  <polygon points="964,714 956,714 964,706" fill="#fef08a"/>
+
+  <!-- Java Header Cup Logo -->
+  <g transform="translate(420, 75)">
+    <!-- Coffee Steam & Cup -->
+    <path d="M 35 15 Q 45 5, 35 0 Q 25 -5, 35 -15" fill="none" stroke="#ea580c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 45 18 Q 55 8, 45 3 Q 35 -2, 45 -12" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 25 18 Q 35 8, 25 3 Q 15 -2, 25 -12" fill="none" stroke="#ea580c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 15 28 L 65 28 C 65 52, 15 52, 15 28 Z" fill="url(#javaGrad)"/>
+    <path d="M 60 32 Q 78 32, 70 42 Q 62 46, 55 42" fill="none" stroke="#ea580c" stroke-width="3"/>
+    <ellipse cx="40" cy="56" rx="35" ry="4" fill="#fbbf24" opacity="0.6"/>
+    <text x="90" y="44" font-family="'Outfit', -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="1">JAVA</text>
+  </g>
+
+  <!-- Title -->
+  <text x="500" y="210" text-anchor="middle" font-family="'Outfit', serif" font-size="28" font-weight="800" fill="url(#goldJava)" letter-spacing="4">PROFESSIONAL CERTIFICATION</text>
+  <text x="500" y="245" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#f97316" letter-spacing="3">ADVANCED JAVA &amp; OOP ARCHITECTURE</text>
+
+  <!-- Divider Line -->
+  <line x1="360" y1="265" x2="640" y2="265" stroke="url(#goldJava)" stroke-width="1.5"/>
+  <polygon points="500,260 505,265 500,270 495,265" fill="#fef08a"/>
+
+  <!-- Recipient -->
+  <text x="500" y="315" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="16" fill="#cbd5e1">THIS CERTIFIES THAT</text>
+  <text x="500" y="380" text-anchor="middle" font-family="'Outfit', -apple-system, sans-serif" font-size="50" font-weight="900" fill="#ffffff" letter-spacing="2">Dinesh N</text>
+
+  <!-- Certificate Description -->
+  <text x="500" y="430" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="15" fill="#94a3b8">has achieved advanced technical mastery in Core Java, Object-Oriented Architecture, JVM Internals,</text>
+  <text x="500" y="455" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="15" fill="#94a3b8">Multithreading, Collections Framework, JDBC, and Enterprise Design Patterns.</text>
+
+  <!-- Java Spec Badge (Left) -->
+  <g transform="translate(140, 500)">
+    <rect width="180" height="90" rx="12" fill="rgba(234, 88, 12, 0.08)" stroke="rgba(234, 88, 12, 0.3)" stroke-width="1"/>
+    <text x="90" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#f97316" letter-spacing="1">SPECIALIZATION</text>
+    <text x="90" y="60" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="22" font-weight="800" fill="#ffffff">Expert Level</text>
+    <text x="90" y="78" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" fill="#94a3b8">Score: 98% (Advanced)</text>
+  </g>
+
+  <!-- Golden Java Seal (Center) -->
+  <g transform="translate(450, 480)">
+    <circle cx="50" cy="50" r="48" fill="url(#goldJava)" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.5))"/>
+    <circle cx="50" cy="50" r="41" fill="#15102a" stroke="url(#goldJava)" stroke-width="1.5"/>
+    <circle cx="50" cy="50" r="36" fill="none" stroke="url(#goldJava)" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M 50 25 L 53 35 L 63 35 L 55 42 L 58 52 L 50 46 L 42 52 L 45 42 L 37 35 L 47 35 Z" fill="url(#goldJava)"/>
+    <text x="50" y="66" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="8" font-weight="800" fill="#fef08a" letter-spacing="1">CERTIFIED</text>
+    <text x="50" y="76" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="7" font-weight="700" fill="#cbd5e1" letter-spacing="0.5">JAVA MASTER</text>
+    <polygon points="35,92 20,135 38,125 50,138 45,95" fill="#ea580c" opacity="0.9"/>
+    <polygon points="65,92 80,135 62,125 50,138 55,95" fill="#c2410c" opacity="0.9"/>
+  </g>
+
+  <!-- Credential Box (Right) -->
+  <g transform="translate(680, 500)">
+    <rect width="180" height="90" rx="12" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1"/>
+    <text x="90" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="1">CERTIFICATE ID</text>
+    <text x="90" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600" fill="#fef08a">JV-EXP-94021</text>
+    <text x="90" y="78" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" fill="#10b981">&#10003; Verified Standard</text>
+  </g>
+
+  <!-- Signatures & Verification Bottom -->
+  <g transform="translate(140, 650)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="100" y="-12" text-anchor="middle" font-family="'Outfit', cursive, sans-serif" font-size="18" fill="#cbd5e1" font-style="italic">Dr. K. S. Raman</text>
+    <text x="100" y="18" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Chief Technical Architect</text>
+    <text x="100" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="10" fill="#64748b">Java Certification Board</text>
+  </g>
+
+  <g transform="translate(660, 650)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="100" y="-12" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#cbd5e1">OCTOBER 2023</text>
+    <text x="100" y="18" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Accredited</text>
+    <text x="100" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="10" fill="#64748b">Lifelong Credential</text>
+  </g>
+</svg>

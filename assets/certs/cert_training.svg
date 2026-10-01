@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="tervBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#110d26"/>
+      <stop offset="50%" stop-color="#1b123d"/>
+      <stop offset="100%" stop-color="#0a0718"/>
+    </linearGradient>
+
+    <!-- Royal Purple & Violet Gradient -->
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Gold Foil -->
+    <linearGradient id="tervGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="25%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Guilloche Pattern -->
+    <pattern id="tervPat" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="28" fill="none" stroke="rgba(168, 85, 247, 0.05)" stroke-width="1"/>
+      <circle cx="30" cy="30" r="14" fill="none" stroke="rgba(245, 158, 11, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="750" fill="url(#tervBg)"/>
+  <rect width="1000" height="750" fill="url(#tervPat)"/>
+
+  <!-- Ornate Outer Frame -->
+  <rect x="25" y="25" width="950" height="700" rx="16" fill="none" stroke="url(#tervGold)" stroke-width="3.5" opacity="0.95"/>
+  <rect x="36" y="36" width="928" height="678" rx="12" fill="none" stroke="rgba(168, 85, 247, 0.35)" stroke-width="1.5"/>
+  <rect x="44" y="44" width="912" height="662" rx="8" fill="none" stroke="url(#tervGold)" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <!-- Corners -->
+  <path d="M 36 80 L 36 36 L 80 36" fill="none" stroke="url(#tervGold)" stroke-width="4"/>
+  <circle cx="36" cy="36" r="5" fill="#fef08a"/>
+  <path d="M 964 80 L 964 36 L 920 36" fill="none" stroke="url(#tervGold)" stroke-width="4"/>
+  <circle cx="964" cy="36" r="5" fill="#fef08a"/>
+  <path d="M 36 670 L 36 714 L 80 714" fill="none" stroke="url(#tervGold)" stroke-width="4"/>
+  <circle cx="36" cy="714" r="5" fill="#fef08a"/>
+  <path d="M 964 670 L 964 714 L 920 714" fill="none" stroke="url(#tervGold)" stroke-width="4"/>
+  <circle cx="964" cy="714" r="5" fill="#fef08a"/>
+
+  <!-- Organization Logo & Header -->
+  <g transform="translate(380, 75)">
+    <rect width="48" height="48" rx="10" fill="url(#purpleGrad)"/>
+    <text x="24" y="33" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="24" font-weight="900" fill="#ffffff">T</text>
+    <text x="64" y="34" font-family="'Outfit', sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="2">TERV</text>
+    <text x="145" y="34" font-family="'Outfit', sans-serif" font-size="24" font-weight="400" fill="#94a3b8">&times;</text>
+    <text x="175" y="34" font-family="'Outfit', sans-serif" font-size="24" font-weight="800" fill="#a855f7" letter-spacing="1">Top Freshers</text>
+  </g>
+
+  <!-- Title -->
+  <text x="500" y="200" text-anchor="middle" font-family="'Outfit', serif" font-size="28" font-weight="800" fill="url(#tervGold)" letter-spacing="4">LEADERSHIP &amp; EXCELLENCE AWARD</text>
+  <text x="500" y="235" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#c084fc" letter-spacing="3">TRAINING TEAM LEAD &amp; MASTER MENTOR</text>
+
+  <!-- Divider -->
+  <line x1="360" y1="255" x2="640" y2="255" stroke="url(#tervGold)" stroke-width="1.5"/>
+  <polygon points="500,250 505,255 500,260 495,255" fill="#fef08a"/>
+
+  <!-- Recipient -->
+  <text x="500" y="305" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="16" fill="#cbd5e1">THIS SPECIAL HONOUR IS CONFERRED UPON</text>
+  <text x="500" y="370" text-anchor="middle" font-family="'Outfit', -apple-system, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="2">Dinesh N</text>
+
+  <!-- Description -->
+  <text x="500" y="420" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="15" fill="#94a3b8">in profound recognition of extraordinary leadership, curriculum innovation, and stellar mentorship</text>
+  <text x="500" y="445" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="15" fill="#94a3b8">empowering 15,000+ engineering students and 6,000+ batches across 1,200+ partner colleges.</text>
+
+  <!-- Milestone Badge (Left) -->
+  <g transform="translate(140, 490)">
+    <rect width="180" height="90" rx="12" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1"/>
+    <text x="90" y="30" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#c084fc" letter-spacing="1">STUDENTS MENTORED</text>
+    <text x="90" y="58" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="24" font-weight="900" fill="#ffffff">15,000+</text>
+    <text x="90" y="78" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" fill="#10b981">80%+ Placement Success</text>
+  </g>
+
+  <!-- Golden Seal (Center) -->
+  <g transform="translate(450, 470)">
+    <circle cx="50" cy="50" r="48" fill="url(#tervGold)" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.5))"/>
+    <circle cx="50" cy="50" r="41" fill="#150f2f" stroke="url(#tervGold)" stroke-width="1.5"/>
+    <circle cx="50" cy="50" r="36" fill="none" stroke="url(#tervGold)" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M 50 25 L 53 35 L 63 35 L 55 42 L 58 52 L 50 46 L 42 52 L 45 42 L 37 35 L 47 35 Z" fill="url(#tervGold)"/>
+    <text x="50" y="66" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="8" font-weight="800" fill="#fef08a" letter-spacing="1">TERV &amp; TF</text>
+    <text x="50" y="76" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="7" font-weight="700" fill="#cbd5e1" letter-spacing="0.5">TEAM LEAD</text>
+    <polygon points="35,92 20,135 38,125 50,138 45,95" fill="#7c3aed" opacity="0.9"/>
+    <polygon points="65,92 80,135 62,125 50,138 55,95" fill="#6d28d9" opacity="0.9"/>
+  </g>
+
+  <!-- College Partnerships Badge (Right) -->
+  <g transform="translate(680, 490)">
+    <rect width="180" height="90" rx="12" fill="rgba(245, 158, 11, 0.08)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
+    <text x="90" y="30" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#fef08a" letter-spacing="1">INSTITUTIONS</text>
+    <text x="90" y="58" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="24" font-weight="900" fill="#ffffff">1,200+</text>
+    <text x="90" y="78" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" fill="#38bdf8">Tamil Nadu &amp; PAN India</text>
+  </g>
+
+  <!-- Signatures Bottom -->
+  <g transform="translate(140, 640)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="100" y="-12" text-anchor="middle" font-family="'Outfit', cursive, sans-serif" font-size="18" fill="#cbd5e1" font-style="italic">Executive Director</text>
+    <text x="100" y="18" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">TERV Leadership Council</text>
+    <text x="100" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="10" fill="#64748b">Technical Skilling Division</text>
+  </g>
+
+  <g transform="translate(660, 640)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="100" y="-12" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#cbd5e1">TERV-TL-2023</text>
+    <text x="100" y="18" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Official Recognition</text>
+    <text x="100" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="10" fill="#64748b">Verified by Top Freshers</text>
+  </g>
+</svg>
