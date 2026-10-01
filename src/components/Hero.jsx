@@ -5,6 +5,24 @@ export default function Hero() {
   const [typedText, setTypedText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [showEmail, setShowEmail] = useState(false);
+  const [showPhone, setShowPhone] = useState(false);
+
+  const handleEmailClick = (e) => {
+    if (!showEmail) {
+      e.preventDefault();
+      setShowEmail(true);
+      setTimeout(() => setShowEmail(false), 4000);
+    }
+  };
+
+  const handlePhoneClick = (e) => {
+    if (!showPhone) {
+      e.preventDefault();
+      setShowPhone(true);
+      setTimeout(() => setShowPhone(false), 4000);
+    }
+  };
 
   useEffect(() => {
     const currentRole = personalInfo.roles[roleIndex];
@@ -87,16 +105,18 @@ export default function Hero() {
                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
               </svg>
             </a>
-            <a href={`mailto:${personalInfo.email}`} className="social-link" id="heroEmail" aria-label="Email">
+            <a href={`mailto:${personalInfo.email}`} className={`social-link ${showEmail ? 'expanded' : ''}`} id="heroEmail" aria-label="Email" onClick={handleEmailClick}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                 <polyline points="22,6 12,12 2,6" />
               </svg>
+              {showEmail && <span className="social-text">{personalInfo.email}</span>}
             </a>
-            <a href={`tel:${personalInfo.phone.replace(/\s+/g, '')}`} className="social-link" id="heroPhone" aria-label="Phone">
+            <a href={`tel:${personalInfo.phone.replace(/\s+/g, '')}`} className={`social-link ${showPhone ? 'expanded' : ''}`} id="heroPhone" aria-label="Phone" onClick={handlePhoneClick}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 9.5 19.79 19.79 0 011 2.18 2 2 0 013 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
               </svg>
+              {showPhone && <span className="social-text">{personalInfo.phone}</span>}
             </a>
           </div>
         </div>
@@ -105,23 +125,23 @@ export default function Hero() {
           <div className="hero-image-ring ring-middle"></div>
           <div className="hero-image-ring ring-inner"></div>
           <div className="hero-image-frame">
-            <img src="/profile.jpg" alt="Dinesh N - Technical Trainer" className="hero-photo" id="heroPhoto" />
+            <img src="./profile.jpg" alt="Dinesh N - Technical Trainer" className="hero-photo" id="heroPhoto" />
           </div>
           <div className="floating-card card-java">
             <span className="card-icon">
-              <img src="/assets/skills/java.svg" alt="Java" style={{ width: '20px', height: '20px', display: 'block' }} />
+              <img src="./assets/skills/java.svg" alt="Java" style={{ width: '20px', height: '20px', display: 'block' }} />
             </span>
             <span>Java Expert</span>
           </div>
           <div className="floating-card card-dsa">
             <span className="card-icon">
-              <img src="/assets/skills/trees-graphs.svg" alt="DSA" style={{ width: '20px', height: '20px', display: 'block' }} />
+              <img src="./assets/skills/trees-graphs.svg" alt="DSA" style={{ width: '20px', height: '20px', display: 'block' }} />
             </span>
             <span>DSA Mentor</span>
           </div>
           <div className="floating-card card-students">
             <span className="card-icon">
-              <img src="/assets/skills/training.svg" alt="Students" style={{ width: '20px', height: '20px', display: 'block' }} />
+              <img src="./assets/skills/training.svg" alt="Students" style={{ width: '20px', height: '20px', display: 'block' }} />
             </span>
             <span>15000+ Students</span>
           </div>
